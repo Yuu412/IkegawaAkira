@@ -25,7 +25,7 @@ export default function Home({ events, notifications, news, books }: Props) {
     <>
       <Seo
         pageDescription={
-          "医師・医学博士 池川明のOfficialサイトです。講演会の依頼について、池川明の著書について、池川明についてはこちらのホームページをご覧ください。"
+          "医師・医学博士 池川明の公式サイトです。講演会の依頼について、池川明の著書について、池川明についてはこちらのホームページをご覧ください。"
         }
         pageImgWidth={1280}
         pageImgHeight={960}
