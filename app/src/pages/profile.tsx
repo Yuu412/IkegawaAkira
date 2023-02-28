@@ -55,7 +55,7 @@ export default function Home({ books }: Props) {
                 <div className="absolute right-0 -z-10 -mt-60">
                   <Image
                     className={"w-[150px] lg:w-[300px]"}
-                    src="/assets/image/Home/dot_pale_orange.png"
+                    src="/assets/image/home/dot_pale_orange.png"
                     alt="dot"
                     width={200}
                     height={300}
@@ -227,7 +227,7 @@ export default function Home({ books }: Props) {
             <>
               <Image
                 className={"w-16 lg:w-24"}
-                src="/assets/image/Home/arrow-bellow-right.svg"
+                src="/assets/image/home/arrow-bellow-right.svg"
                 alt="→"
                 width={400}
                 height={50}
@@ -264,7 +264,7 @@ export default function Home({ books }: Props) {
 
               <Image
                 className={"w-10 absolute right-2 "}
-                src="/assets/image/Home/arrow-right-orange.png"
+                src="/assets/image/home/arrow-right-orange.png"
                 alt=">"
                 width={100}
                 height={100}

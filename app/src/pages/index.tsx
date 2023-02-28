@@ -76,7 +76,7 @@ export default function Home({ events, notifications, news, books }: Props) {
             <div className="inherit -z-10 md: md:right-0">
               <Image
                 className={"w-[150px] md:w-[15vw]"}
-                src="/assets/image/Home/dot_pale_orange.png"
+                src="/assets/image/home/dot_pale_orange.png"
                 alt="dot"
                 width={200}
                 height={300}
@@ -100,7 +100,7 @@ export default function Home({ events, notifications, news, books }: Props) {
                   <>
                     <Image
                       className={"w-[30px] lg:w-[45px]"}
-                      src="/assets/image/Home/arrow_right.svg"
+                      src="/assets/image/home/arrow_right.svg"
                       alt="arrow_right"
                       width={30}
                       height={30}
@@ -139,7 +139,7 @@ export default function Home({ events, notifications, news, books }: Props) {
                     <div className="absolute -top-3 -left-3 z-0">
                       <div className="absolute z-10 w-24">
                         <Image
-                          src="/assets/image/Home/left-top-triangle.png"
+                          src="/assets/image/home/left-top-triangle.png"
                           alt="arrow_right"
                           width={200}
                           height={200}
@@ -157,7 +157,7 @@ export default function Home({ events, notifications, news, books }: Props) {
                       <div className="w-full mb-1 -mt-8">
                         <Image
                           className={"w-10 mr-0 ml-auto"}
-                          src="/assets/image/Home/arrow-right-orange.png"
+                          src="/assets/image/home/arrow-right-orange.png"
                           alt=">"
                           width={100}
                           height={100}
@@ -179,7 +179,7 @@ export default function Home({ events, notifications, news, books }: Props) {
             <>
               <Image
                 className={"w-16 lg:w-24"}
-                src="/assets/image/Home/arrow-bellow-right.svg"
+                src="/assets/image/home/arrow-bellow-right.svg"
                 alt="→"
                 width={400}
                 height={50}
@@ -225,7 +225,7 @@ export default function Home({ events, notifications, news, books }: Props) {
             <>
               <Image
                 className={"w-16 lg:w-24"}
-                src="/assets/image/Home/arrow-bellow-right.svg"
+                src="/assets/image/home/arrow-bellow-right.svg"
                 alt="→"
                 width={400}
                 height={50}
@@ -252,7 +252,7 @@ export default function Home({ events, notifications, news, books }: Props) {
               <>
                 <Image
                   className={"w-5/6 rounded-lg mx-auto my-6"}
-                  src="/assets/image/Home/event_thumbnail.png"
+                  src="/assets/image/home/event_thumbnail.png"
                   alt="event"
                   width={725}
                   height={400}
@@ -294,7 +294,7 @@ export default function Home({ events, notifications, news, books }: Props) {
               <>
                 <Image
                   className={"w-5/6 rounded-lg mx-auto my-6"}
-                  src="/assets/image/Home/youtube_thumbnail.png"
+                  src="/assets/image/home/youtube_thumbnail.png"
                   alt="youtube"
                   width={725}
                   height={400}
@@ -333,7 +333,7 @@ export default function Home({ events, notifications, news, books }: Props) {
               <>
                 <Image
                   className={"w-5/6 rounded-lg mx-auto my-6"}
-                  src="/assets/image/Home/book-thumbnail.png"
+                  src="/assets/image/home/book-thumbnail.png"
                   alt="book"
                   width={725}
                   height={400}
@@ -410,7 +410,7 @@ export default function Home({ events, notifications, news, books }: Props) {
             <div>
               <Image
                 className={"w-16 lg:w-24"}
-                src="/assets/image/Home/arrow-bellow-right.svg"
+                src="/assets/image/home/arrow-bellow-right.svg"
                 alt="→"
                 width={400}
                 height={50}
@@ -455,7 +455,7 @@ export default function Home({ events, notifications, news, books }: Props) {
 
               <Image
                 className={"w-10 absolute right-2 "}
-                src="/assets/image/Home/arrow-right-orange.png"
+                src="/assets/image/home/arrow-right-orange.png"
                 alt=">"
                 width={100}
                 height={100}

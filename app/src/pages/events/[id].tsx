@@ -84,7 +84,7 @@ export default function eventsId({ article, events }: Props) {
               <>
                 <Image
                   className={"w-[30px]"}
-                  src="/assets/image/Home/arrow_right.svg"
+                  src="/assets/image/home/arrow_right.svg"
                   alt="arrow_right"
                   width={30}
                   height={30}

@@ -22,7 +22,7 @@ const SectionTitle = ({
       {complementaryColor ? (
         <Image
           className={"w-[30px] lg:w-[60px] mx-auto my-3"}
-          src="/assets/image/Home/section-title-divider-complementary-color.png"
+          src="/assets/image/home/section-title-divider-complementary-color.png"
           alt="section-title-divider"
           width={125}
           height={700}
@@ -30,7 +30,7 @@ const SectionTitle = ({
       ) : (
         <Image
           className={"w-[30px] lg:w-[60px] mx-auto my-3"}
-          src="/assets/image/Home/section-title-divider.png"
+          src="/assets/image/home/section-title-divider.png"
           alt="section-title-divider"
           width={125}
           height={700}
