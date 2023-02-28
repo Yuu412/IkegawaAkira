@@ -46,7 +46,7 @@ export default function Home({ events, notifications, news, books }: Props) {
             <div className="absolute left-2 mt-12 z-40">
               <Image
                 className={"w-[50px] md:w-[5vw]"}
-                src="/assets/image/Home/officialWebSite.png"
+                src="/assets/image/home/officialWebSite.png"
                 alt="official web site"
                 width={125}
                 height={700}
@@ -56,7 +56,7 @@ export default function Home({ events, notifications, news, books }: Props) {
             <div className="absolute w-11/12 right-0 mt-[-60px] z-0 md:w-[700px] md:mt-[-180px]">
               <Image
                 className="md:hidden lg:hidden"
-                src="/assets/image/Home/ikegawa_sp.png"
+                src="/assets/image/home/ikegawa_sp.png"
                 alt="profile image"
                 width={1275}
                 height={1800}
@@ -64,7 +64,7 @@ export default function Home({ events, notifications, news, books }: Props) {
               />
               <Image
                 className="hidden md:block lg:block"
-                src="/assets/image/Home/ikegawa_lg.png"
+                src="/assets/image/home/ikegawa_lg.png"
                 alt="profile image"
                 width={1000}
                 height={1000}
