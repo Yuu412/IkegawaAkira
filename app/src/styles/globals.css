@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hidden-scrollbar {
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+  }
+  .hidden-scrollbar::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+  }
+}
+
+.inherit {
+  position: inherit;
+}
+
+.left-top-triangle {
+  border-bottom: 80px solid transparent;
+  border-left: 80px solid #ff9023;
+}
+
+* {
+  -ms-overflow-style: none; /* IE, Edge 対応 */
+  scrollbar-width: none; /* Firefox 対応 */
+}
+*::-webkit-scrollbar {
+  /* Chrome, Safari 対応 */
+  display: none;
+}

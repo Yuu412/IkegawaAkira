@@ -1,0 +1,13 @@
+services:
+  front:
+    build:
+      context: .
+    tty: true
+    ports:
+      - "3000:3000" # 開発用
+      - "4000:4000" # 本番用
+    volumes:
+      - ./app:/app
+    environment:
+      - WATCHPACK_POLLING=true
+    command: sh -c "npm run dev"
