@@ -85,24 +85,28 @@ export default function Home({ books }: Props) {
                   </div>
                   <div className="flex justify-start my-4 gap-8">
                     <div className="flex flex-col gap-2">
-                      <div>1999年</div>
-                      <div>1999年</div>
-                      <div>1999年</div>
-                      <div>1999年</div>
-                      <div>1999年</div>
-                      <div>1999年</div>
-                      <div>1999年</div>
-                      <div>1999年</div>
+                      <div>1954年</div>
+                      <div>1979年</div>
+                      <div>1986年</div>
+                      <div>1986年</div>
+                      <div>1987年</div>
+                      <div>1989年</div>
+                      <div>1998年</div>
+                      <div>2005年</div>
+                      <div>2011年</div>
+                      <div>2011年</div>
                     </div>
                     <div className="flex flex-col gap-2">
+                      <div>東京都生まれ</div>
                       <div>帝京大学医学部卒業</div>
-                      <div>〇〇大学大学院 〇〇過程修了</div>
-                      <div>〇〇病院 〇〇科</div>
-                      <div>〇〇病院 〇〇科</div>
-                      <div>池川クリニック開業 院長</div>
-                      <div>池川クリニック開業</div>
-                      <div>池川クリニック</div>
-                      <div>〇〇大学大学院 〇〇過程修了</div>
+                      <div>帝京大学大学院修了　医学博士</div>
+                      <div>帝京大学医学部産婦人科医局長</div>
+                      <div>上尾中央総合病院産科婦人科部長</div>
+                      <div>池川クリニック開設</div>
+                      <div>一般社団法人金沢区三師会理事</div>
+                      <div>神奈川県医師会理事</div>
+                      <div>横浜市金沢区医師会会長</div>
+                      <div>横浜市医師会理事</div>
                     </div>
                   </div>
                 </div>
@@ -138,24 +142,28 @@ export default function Home({ books }: Props) {
           <div className="w-1/4 h-8 bg-white mx-auto -mt-[75px]"></div>
           <div className="flex justify-evenly text-naby text-sm my-12">
             <div className="flex flex-col gap-2">
-              <div>1999年</div>
-              <div>1999年</div>
-              <div>1999年</div>
-              <div>1999年</div>
-              <div>1999年</div>
-              <div>1999年</div>
-              <div>1999年</div>
-              <div>1999年</div>
+              <div>1954年</div>
+              <div>1979年</div>
+              <div>1986年</div>
+              <div>1986年</div>
+              <div>1987年</div>
+              <div>1989年</div>
+              <div>1998年</div>
+              <div>2005年</div>
+              <div>2011年</div>
+              <div>2011年</div>
             </div>
             <div className="flex flex-col gap-2 text-sm">
+              <div>東京都生まれ</div>
               <div>帝京大学医学部卒業</div>
-              <div>〇〇大学大学院 〇〇過程修了</div>
-              <div>〇〇病院 〇〇科</div>
-              <div>〇〇病院 〇〇科</div>
-              <div>池川クリニック開業 院長</div>
-              <div>池川クリニック開業</div>
-              <div>池川クリニック</div>
-              <div>〇〇大学大学院 〇〇過程修了</div>
+              <div>帝京大学大学院修了　医学博士</div>
+              <div>帝京大学医学部産婦人科医局長</div>
+              <div>上尾中央総合病院産科婦人科部長</div>
+              <div>池川クリニック開設</div>
+              <div>一般社団法人金沢区三師会理事</div>
+              <div>神奈川県医師会理事</div>
+              <div>横浜市金沢区医師会会長</div>
+              <div>横浜市医師会理事</div>
             </div>
           </div>
         </div>
