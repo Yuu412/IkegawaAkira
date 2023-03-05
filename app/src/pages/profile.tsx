@@ -126,7 +126,7 @@ export default function Home({ books }: Props) {
 
         <div className="w-5/6 mx-auto text-sm leading-7 md:w-3/5 md:text-lg md:leading-10">
           1954年生まれ。「胎内記憶」領域の第一人者として、これまで数々の研究論文・書籍の執筆や、新聞・映画等のメディアへの出演を続けてきた。2014年から上映されている「かみさまとのやくそく」では主演を務め、現在までの観客動員数は31万人にのぼる。1989年に横浜市に産婦人科
-          池川クリニックを開設し、2016年までの28年間で約2700年の出産を扱った。現在では出産の扱いをやめ、胎内記憶を世界に広める活動に専念している。
+          池川クリニックを開設し、2016年までの28年間で約2700件の出産を扱った。現在では出産の扱いをやめ、胎内記憶を世界に広める活動に専念している。
         </div>
 
         {/*  Section: BIOGRAPHT  ===========================================================  */}
@@ -228,7 +228,10 @@ export default function Home({ books }: Props) {
               );
             })}
           </div>
-          <div className="flex align-baseline justify-end my-2">
+          <Link
+            href="/books/list"
+            className="flex align-baseline justify-end my-2"
+          >
             <div className="text-orange tracking-widest text-sm mx-2">
               VIEW MORE
             </div>
@@ -241,7 +244,7 @@ export default function Home({ books }: Props) {
                 height={50}
               />
             </>
-          </div>
+          </Link>
         </div>
 
         <div className="inherit z-0  -ml-1 mt-20">
