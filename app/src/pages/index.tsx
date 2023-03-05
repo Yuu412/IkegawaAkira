@@ -397,6 +397,16 @@ export default function Home({ events, notifications, news, books }: Props) {
                       <p className="text-xs my-2 line-clamp-2 md:text-base">
                         {book.title}
                       </p>
+
+                      {book.tag != null ? (
+                        <div className="text-center mx-auto px-1 my-2">
+                          <span className=" bg-orange rounded-full mx-auto text-white px-2 py-1 line-clamp-1">
+                            {book.tag}
+                          </span>
+                        </div>
+                      ) : (
+                        ""
+                      )}
                     </div>
                   </Link>
                 </div>

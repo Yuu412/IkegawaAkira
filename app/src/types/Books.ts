@@ -13,4 +13,5 @@ export type Books = {
     height: string;
   };
   url: string;
+  tag: string;
 };

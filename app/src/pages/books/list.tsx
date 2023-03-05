@@ -101,19 +101,28 @@ export default function Home() {
               return (
                 <div className="w-[95%] my-3 md:my-9">
                   <Link href={book.url} target="_blank">
-                    <div>
-                      <img
-                        src={book.cover.url}
-                        className="mx-auto h-40 object-contain md:h-72 rounded-lg"
-                        alt="書籍画像"
-                      />
-                    </div>
-                    <p className="text-xs text-pale_gray my-2 md:text-sm">
+                    <Image
+                      src={book.cover.url}
+                      width={500}
+                      height={500}
+                      className="mx-auto h-40 object-contain md:h-72 rounded-lg"
+                      alt="書籍画像"
+                    />
+                    <p className="text-xs text-pale_gray my-1 md:text-sm">
                       {publishedDate}
                     </p>
                     <p className="text-sm text-gray line-clamp-2 md:text-base">
                       {book.title}
                     </p>
+                    {book.tag != null ? (
+                      <div className="text-center mx-auto px-1 my-2">
+                        <span className=" bg-orange rounded-full mx-auto text-white px-2 py-1 line-clamp-1">
+                          {book.tag}
+                        </span>
+                      </div>
+                    ) : (
+                      ""
+                    )}
                   </Link>
                 </div>
               );
