@@ -52,6 +52,10 @@ const Seo = ({
         rel="stylesheet"
       />
       <link rel="canonical" href={url} />
+      <meta
+        name="google-site-verification"
+        content="B-vb9dS09WCP2bEIsoa5qgBvjJYEq58Kag94Y-QqMoE"
+      />
     </Head>
   );
 };
