@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ikegawaakira.com/
+
+# Sitemaps
+Sitemap: https://www.ikegawaakira.com/out/sitemap.xml
