@@ -17,6 +17,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
+  "ignorePatterns": ["*.config.js"],
   "rules": {
     "react/react-in-jsx-scope": "off", // v17からReactをimport不要になった
     // importをアルファベット順にする
@@ -28,6 +29,5 @@
         }
       }
     ]
-  },
-  "ignorePatterns": ["*.config.js"]
+  }
 }
