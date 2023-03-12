@@ -6,18 +6,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
-import SectionTitle from "../components/common/SectionTitle";
-import PageTopLogo from "../components/common/PageTopLogo";
-import Seo from "../components/Seo";
-import { GetStaticProps } from "next";
-
-export const getStaticProps: GetStaticProps = async () => {
-  return {
-    redirect: {
-      destination: "/",
-      permanent: true,
-    },
-  };
-};
-
-export default getStaticProps;
+export default function Home() {
+  return <div>404 not found</div>;
+}
