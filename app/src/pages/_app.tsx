@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Script from "next/script";
 import * as gtag from "src/libs/gtag";
+import { GetServerSideProps } from "next";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
